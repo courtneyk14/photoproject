@@ -1,3 +1,33 @@
-img{height:300px;width: 400px; object-fit: cover;}
-.header {text-align:center;font-family: 'Monoton', cursive;border: dotted gray}
-.images{display:flex; justify-content:center;}
+* {
+  margin: 5px;
+  padding: 5px;
+
+}
+
+img{height:300px;width: 400px; object-fit: cover; border: solid}
+
+.header {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  border: dotted gray;
+  background-color: #BEEAFF
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+body{background-image: url(https://s3.amazonaws.com/mk-website-media/wp-content/uploads/2018/10/18235758/Wallpaper-Kemra-SoftWhiteBricks-1-1100x1318.jpg)}
+ p{font-family: fantasy;}
+
+ .page2{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   color: black
+
+ }
